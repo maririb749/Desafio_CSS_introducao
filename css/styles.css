@@ -1,0 +1,154 @@
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+     :root {
+        --color-red: #F03C42;
+        --color-blue: #222374;
+        --bg-light-gray: #CCCCCC;
+        --color-black: #000000;
+        --color-white: #FFFFFF;
+    }
+    
+    * {
+        font-family: 'Open + Sans', sans-serif;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: var(--color-red);
+        height: 100px;
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+    }
+    
+    nav h1 {
+        color: var(--color-white);
+        font-size: 18px;
+    }
+    
+    .redes-sociais {
+        display: flex;
+        align-items: center;
+    }
+    
+    .content-redes {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #conheca {
+        padding: 10px 15px 20px 0px;
+        background-color: var(--color-blue);
+    }
+    
+    .content-convite h1 {
+        padding: 10px 0 40px 0px;
+        color: var(--color-white);
+        font-size: 32px;
+    }
+    
+    .content-convite h3 {
+        padding: 10px 0px 20px 20px;
+        color: var(--color-black);
+        font-size: 20px;
+    }
+    
+    .content-convite p {
+        padding: 10px 0px 20px 20px;
+        color: var(--color-black);
+        font: 14px;
+    }
+    
+    .redes-sociais p {
+        size: 14px;
+        color: var(--color-white);
+        padding: 10px;
+    }
+    
+    .convite-description {
+        background-color: var(--bg-light-gray);
+        border-radius: 8px 8px 8px 8px;
+        margin-bottom: 20px;
+    }
+    
+    .container {
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    
+    #modalidades {
+        padding: 20px 15px 20px 0px;
+    }
+    
+    #modalidades h2 {
+        padding: 0px 0px 40px 0px;
+        font-size: 32px;
+        color: var(--color-red);
+    }
+    
+    .card-tipos-esporte h3 {
+        padding: 20px 20px 10px 20px;
+        color: var(--color-white);
+        font-size: 20px;
+    }
+    
+    .card-tipos-esporte p {
+        padding: 10px 20px 20px 20px;
+        color: var(--color-white);
+        font-size: 14px;
+    }
+    
+    .card-tipos-esporte {
+        background-color: var(--color-blue);
+        border-radius: 8px 8px 8px 8px;
+        margin-bottom: 20px;
+    }
+    
+    footer {
+        padding: 0 15px;
+        min-height: 262px;
+        background-color: var(--color-black);
+        color: var(--color-white);
+    }
+    
+    .all {
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        padding: 60px 0px 30px 0px;
+    }
+    
+    .insta {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        padding: 5px 0px;
+        justify-content: space-between;
+    }
+    
+    .tuiter {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        padding: 5px 0px;
+        justify-content: space-between;
+    }
+    
+    .adress {
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 60px 0px;
+        font-size: 14px;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
